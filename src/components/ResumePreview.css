@@ -1,0 +1,61 @@
+.resume {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+  padding: 40px;
+  width: 100%;
+}
+
+/* HEADER */
+.resume-header {
+  background: #1f3c88;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.resume-header p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* SECTIONS */
+section {
+  margin-top: 25px;
+}
+
+section h2 {
+  font-size: 18px;
+  color: #1f3c88;
+  border-bottom: 2px solid #1f3c88;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* SKILLS */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #e8ecf7;
+  color: #1f3c88;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}

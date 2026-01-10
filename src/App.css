@@ -27,3 +27,32 @@ textarea {
 .resume h2 {
   margin-top: 20px;
 }
+@media print {
+  button {
+    display: none;
+  }
+}
+.pdf-only {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: 794px; /* A4 width */
+  min-height: 1123px; /* A4 height */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  button {
+    display: none;
+  }
+}
+
+@media print {
+  .pdf-only {
+    display: block;
+  }
+
+  button {
+    display: none;
+  }
+}
