@@ -15,6 +15,7 @@ function App() {
     skills: "",
     education: "",
     experience: "",
+    projects: "",
   });
 
   const handleDownload = () => {
@@ -37,7 +38,9 @@ function App() {
   return (
     <div className="container">
       <ResumeForm formData={formData} setFormData={setFormData} />
-      <button onClick={handleDownload}>Download Resume PDF</button>
+      <button className="download-btn" onClick={handleDownload}>
+        Download Resume PDF
+      </button>
 
       <div ref={pdfRef} className="pdf-only">
         <ResumePreview data={formData} />

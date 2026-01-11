@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["CGPA"]
+  "cSpell.words": ["CGPA"],
+  "java.compile.nullAnalysis.mode": "automatic"
 }

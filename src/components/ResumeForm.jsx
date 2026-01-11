@@ -64,6 +64,16 @@ const ResumeForm = ({ formData, setFormData }) => {
           }
         />
       </div>
+      <div className="form-section">
+        <h3>🚀 Projects</h3>
+        <textarea
+          placeholder="Project Name - Description - https://projectlink.com"
+          value={formData.projects}
+          onChange={(e) =>
+            setFormData({ ...formData, projects: e.target.value })
+          }
+        />
+      </div>
     </div>
   );
 };

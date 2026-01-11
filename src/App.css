@@ -56,3 +56,25 @@ textarea {
     display: none;
   }
 }
+.download-btn {
+  margin: 20px 0;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4f46e5, #1f3c88);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(79, 70, 229, 0.4);
+}
+
+.download-btn:active {
+  transform: scale(0.96);
+}
